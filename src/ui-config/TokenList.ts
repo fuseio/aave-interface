@@ -63,6 +63,18 @@ const NETWORK_ASSETS: TokenInfo[] = [
     },
   },
   {
+    name: 'Fuse',
+    symbol: 'FUSE',
+    decimals: 18,
+    address: API_ETH_MOCK_ADDRESS,
+    chainId: 122,
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png',
+    extensions: {
+      isNative: true,
+    },
+  },
+  {
     name: 'Avalanche',
     symbol: 'AVAX',
     decimals: 18,
@@ -214,6 +226,14 @@ export const TOKEN_LIST: TokenList = {
       symbol: 'stETH',
       decimals: 18,
       chainId: 1,
+      logoURI: 'https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png?1696513206',
+    },
+    {
+      name: 'Wrapped Fuse',
+      address: '0xBd37f551CEb90369dcf1e46Ddb60937B0AdEE107',
+      symbol: 'WFUSE',
+      decimals: 18,
+      chainId: 122,
       logoURI: 'https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png?1696513206',
     },
     {
